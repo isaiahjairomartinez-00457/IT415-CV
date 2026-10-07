@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isaiah Jairo Martinez | IT Student &amp; Creative Digital Specialist</title>
+  <meta name="description" content="Portfolio and curriculum vitae of Isaiah Jairo Martinez, a 4th-year Information Technology student focused on video editing, photography, and creative digital work.">
+  <meta name="theme-color" content="#102a43">
+  <meta property="og:title" content="Isaiah Jairo Martinez | CV &amp; Portfolio">
+  <meta property="og:description" content="4th-year Information Technology student focused on video editing, photography, and creative digital work.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Isaiah Jairo Martinez home">IJM<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+      <span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="intro-title">
+      <figure class="hero-portrait">
+        <img src="assets/profile-photo.png" width="768" height="1024" alt="Portrait of Isaiah Jairo Martinez wearing a black collared shirt">
+      </figure>
+      <div class="hero-copy">
+        <p class="eyebrow">Curriculum vitae <span class="availability"><i aria-hidden="true"></i> Open to opportunities</span></p>
+        <h1 id="intro-title">Isaiah Jairo <span>Martinez</span></h1>
+        <p class="hero-role">4th-year Information Technology student creating clear, engaging digital stories through video editing and photography.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a><button class="button button-secondary" id="print-cv" type="button">Print / Save as PDF</button></div>
+        <a class="hero-contact" href="mailto:isaiahjairomartinez203@gmail.com">isaiahjairomartinez203@gmail.com</a>
+      </div>
+      <div class="hero-meta" aria-label="Profile highlights"><span>IT student</span><span>Video editor</span><span>Photographer</span></div>
+    </section>
+
+    <div class="content-grid">
+      <aside class="side-label" aria-hidden="true">Profile <span>01</span></aside>
+      <div class="content-column">
+        <section id="about" class="content-section" aria-labelledby="about-title"><p class="section-kicker">01 / About</p><h2 id="about-title">A technical mind with a creative point of view.</h2><p class="lead">I am a 4th-year Information Technology student interested in technology and creative digital work. I bring together developing technical skills with a focus on video editing, photography, and thoughtful visual storytelling.</p></section>
+
+        <section id="education" class="content-section" aria-labelledby="education-title"><p class="section-kicker">02 / Education</p><h2 id="education-title">Building a foundation in technology.</h2><article class="timeline-card"><div><p class="card-label">2022 - 2027 | Expected graduation</p><h3>Bachelor of Science in Information Technology</h3><p class="education-school">Davao Del Norte State College</p><p class="muted">Barangay New Visayas, Panabo City, Davao del Norte, Philippines</p><p class="muted">4th-year student | IT415 | Section 4G</p></div><span class="status-pill">In progress</span></article><div class="coursework"><p class="card-label">Relevant coursework</p><ul><li>Computer Programming</li><li>Web Development</li><li>Database Management Systems</li><li>Systems Analysis and Design</li><li>Networking</li><li>Software Engineering</li></ul></div></section>
+
+        <section id="skills" class="content-section" aria-labelledby="skills-title"><p class="section-kicker">03 / Skills</p><h2 id="skills-title">Skills I am developing and applying.</h2><div class="card-grid"><article class="info-card"><span class="card-number">01</span><h3>Video editing</h3><p>Cutting, pacing, and polishing footage into clear, watchable videos.</p></article><article class="info-card"><span class="card-number">02</span><h3>Photography</h3><p>Applying framing, lighting, and image editing with a creative eye.</p></article><article class="info-card"><span class="card-number">03</span><h3>Web foundations</h3><p>Building lightweight, responsive pages with HTML, CSS, and JavaScript.</p></article></div><div class="skill-list" aria-label="Verified technologies"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></section>
+
+        <section id="projects" class="content-section" aria-labelledby="projects-title"><p class="section-kicker">04 / Projects</p><h2 id="projects-title">Work that reflects my direction.</h2><article class="project-card"><div class="project-topline"><span>Personal project</span><span>2026</span></div><h3>Personal CV &amp; portfolio website</h3><p>A responsive one-page portfolio designed to present my Information Technology background, creative interests, skills, and contact details in a focused format.</p><div class="project-footer"><span>HTML · CSS · JavaScript</span><span class="project-role">Role: Designer &amp; developer</span></div></article><p class="detail-note">Additional projects, repository links, and live demos can be added when they are available.</p></section>
+
+        <section id="contact" class="content-section contact-section" aria-labelledby="contact-title"><p class="section-kicker">05 / Contact</p><h2 id="contact-title">Let’s connect.</h2><p class="lead">For opportunities, collaborations, or a conversation about creative digital work, send me an email.</p><div class="contact-actions"><a class="email-link" id="mail" href="mailto:isaiahjairomartinez203@gmail.com">isaiahjairomartinez203@gmail.com</a><button class="button button-secondary" id="copy-email" type="button">Copy email</button></div><p class="status" id="copy-status" role="status" aria-live="polite"></p></section>
+      </div>
+    </div>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <footer><p>&copy; <span id="year"></span> Isaiah Jairo Martinez</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
