@@ -35,4 +35,4 @@ Open `index.html` in any browser. No installation is needed. Use **Print / Save 
 isaiahjairomartinez203@gmail.com
 
 ## Project Description
-This project presents my professional CV.
+This project showcases my education and technical skills.
