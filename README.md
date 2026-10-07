@@ -33,3 +33,6 @@ Open `index.html` in any browser. No installation is needed. Use **Print / Save 
 ## Contact
 
 isaiahjairomartinez203@gmail.com
+
+## Project Description
+This project presents my professional CV.
