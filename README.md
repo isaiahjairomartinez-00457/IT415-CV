@@ -1,4 +1,4 @@
-# Personal CV Web Page
+# Personal CV & Portfolio Web Page
 
 - **Name:** Isaiah Jairo Martinez
 - **Year level:** 4th Year
@@ -7,9 +7,9 @@
 
 ## About this project
 
-A simple, modern one-page Curriculum Vitae with a soft dusk-colored design and a camera-viewfinder hero, matching my interests in video editing and photography.
+A modern, responsive one-page Curriculum Vitae and portfolio for presenting my Information Technology background and interests in video editing and photography.
 
-It includes a profile, education, skills, technologies used, and contact information.
+It includes a professional summary, education, verified skills and technologies, a confirmed personal project, contact information, responsive navigation, and print-friendly CV output.
 
 ## Technologies used
 
@@ -22,12 +22,13 @@ It includes a profile, education, skills, technologies used, and contact informa
 | File | Purpose |
 | --- | --- |
 | `index.html` | Page structure and CV content |
-| `style.css` | Layout, colors, fonts, light/dark mode, responsive design |
-| `script.js` | Running timecode in the hero, copy-email button, footer year |
+| `style.css` | Layout, typography, responsive design, accessibility states, and print styles |
+| `script.js` | Mobile navigation, active section highlighting, print action, copy-email button, back-to-top control, and footer year |
+| `favicon.svg` | Lightweight initials favicon |
 
 ## How to run
 
-Open `index.html` in any browser. No installation is needed.
+Open `index.html` in any browser. No installation is needed. Use **Print / Save as PDF** to create a CV copy.
 
 ## Contact
 
